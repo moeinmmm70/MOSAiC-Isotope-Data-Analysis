@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+seaborn
+xarray
+psycopg2-binary
+jupyter
+cartopy

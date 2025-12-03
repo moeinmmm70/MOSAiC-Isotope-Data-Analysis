@@ -1,0 +1,17 @@
+# OS / misc
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Anaconda internal stuff
+anaconda_projects/
+
+# Raw data
+data/raw/*
