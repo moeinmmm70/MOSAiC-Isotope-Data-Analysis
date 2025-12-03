@@ -113,35 +113,25 @@ This repository contains clean, reproducible workflows for:
 
 ---
 
-## 📂 **Repository Structure**
+## 📂 Repository Structure
 
-The structure below reflects the **actual folders present in your GitHub repository**:
+- [`data/`](./data)
+  - [`processed/`](./data/processed) — Cleaned datasets aligned with PANGAEA DOIs
 
-MOSAiC-Isotope-Data-Analysis/
-│
-├── data/
-│   └── processed/                # Cleaned datasets (aligned with PANGAEA DOIs)
-│
-├── notebooks/                    # Main analytical and visualization workflows
-│
-├── scripts/
-│   ├── build_database_postgres.py    # Loads processed PANGAEA data into PostgreSQL
-│   └── cleaning_utils.py             # Utility functions for cleaning & formatting
-│
-├── sql/                            # SQL schema, QC queries, analytical queries
-│
-├── docs/                           # Metadata documents, data dictionary, notes
-│
-├── reports/                        # Exported figures and analytical summaries
-│
-├── requirements.txt                # Python package requirements
-└── README.md
+- [`notebooks/`](./notebooks) — Main analysis and visualization workflows
 
+- [`scripts/`](./scripts)
+  - [`build_database_postgres.py`](./scripts/build_database_postgres.py) — Loads processed PANGAEA data into PostgreSQL
+  - [`cleaning_utils.py`](./scripts/cleaning_utils.py) — Utility functions for data formatting
 
-Notes based on your live repository:  
-- `data/raw/` does **not** exist → removed from README.  
-- You **do** have `docs/`, `reports/`, `scripts/`, `sql/` → kept in README.  
-- The README assumes correctly that processed data are committed.
+- [`sql/`](./sql) — SQL schema, QC queries, analytical queries
+
+- [`docs/`](./docs) — Metadata documents, data dictionary, notes
+
+- [`reports/`](./reports) — Exported figures and analytical summaries
+
+- [`requirements.txt`](./requirements.txt) — Python package requirements  
+- [`README.md`](./README.md)
 
 ---
 
